@@ -1,0 +1,46 @@
+/* Write your code here. */
+.bg {
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 50px;
+}
+img {
+  height: 46vh;
+  width: 36vw;
+}
+h1 {
+  color: white;
+  font-family: Open Sans;
+  font-size: 22px;
+  font-weight: bolder;
+  text-align: start;
+}
+p {
+  color: #e4e7eb;
+  font-family: Open Sans;
+  font-size: 12px;
+  font-weight: bolder;
+  text-align: start;
+}
+input {
+  background-color: transparent;
+  border-radius: 6px;
+  border-color: #e4e7eb;
+}
+.image {
+  display: flex;
+  flex-direction: column;
+  justify-self: flex-end;
+  align-self: flex-end;
+}
+.white-card {
+  height: 34px;
+  width: 200px;
+  background-color: white;
+  color: #219a6f;
+  margin: 14px;
+}
